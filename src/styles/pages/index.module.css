@@ -1,0 +1,74 @@
+.overlay {
+    background: #C69D82;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.overlay>img:first-child {
+    position: fixed;
+    left: -100px;
+    top: -60px;
+}
+
+.loginContainer {
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+
+    box-shadow: 0px 0px 94px -35px rgba(0,0,0,0.75);
+}
+
+.loginContainer p {
+    padding-top: 2.5rem;
+    padding-bottom: 1.25rem;
+}
+
+.loginContainer input {
+    background: #131212;
+    opacity: 40%;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    text-align: center;
+
+    color: #fff;
+
+    outline: none;
+    border: none;
+
+    margin-bottom: 1.5rem;
+}
+
+.loginContainer button {
+    height: 50px;
+    width: 50px;
+    background: #C57D19;
+
+    outline: none;
+    border: none;
+    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.loginContainer button:hover {
+    background: #bd7716;
+}
+
+.loginContainer button:active {
+    background: #bd7716;
+}
